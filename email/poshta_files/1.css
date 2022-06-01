@@ -1,0 +1,40 @@
+.bod .b_h{background-image:url('/img/schemes/1/fon2.gif');}
+
+#search_button_small {background-image:url(/img/search_small/01_1.gif )}
+#search_button_small:hover {background-image:url(/img/search_small/01_2.gif )}
+
+.bottom_panel{border-top:1px solid #909ba2;background-image:url('/img/schemes/1/fon2.gif');}
+.zs{background:#FFF url('/img/schemes/1/bg_z.gif') top repeat-x;}
+.file_head{background:#FFFFFF url('/img/schemes/1/bg_z.gif') repeat-x scroll center top;}
+.dprefsTitle{background-image:url('/img/schemes/1/bg_b_h.gif');}
+.box{background:#FFF url('/img/schemes/1/bg_b_h.gif') top repeat-x;}
+.sb,.b_z,.b_z_hd,.b_h,.b_hz{background:#F1F5F7 url('/img/schemes/1/bg_b_h.gif') top repeat-x;}
+table.moreInfo{background-image:url('/img/schemes/1/bg_b_h.gif') !important;}
+h1.sub{background-image:url('/img/schemes/1/bg_b_h.gif');}
+.sub{background-image:url('/img/schemes/1/bg_b_h.gif');}
+
+.panel_element_over{background-image:url('/img/schemes/1/fon.gif');}
+
+div.topMenuF,div.topMenu{background:url('/img/schemes/1/bg_b_h.gif') repeat-x scroll center top !important; border-top:1px solid #909BA2;}
+
+.bottom_panel{background-image:url('/img/schemes/1/fon2.gif');}
+
+div.treeSelector{background-color:#E4EDF1;}
+
+tr .row_over td{background-color:#ffffee !important;}
+
+.btn_bold,.btn{background:#F6F9FA url('/img/schemes/1/80.gif');}
+.btn_a_bold,.btn_a,.btn_a_3{background-image:url('/img/schemes/1/80.gif');}
+.left_panel .razdel{background:url('/img/schemes/1/panel/razdel.gif');}
+.mbody{background-color:#ffffff;}
+
+.left_panel .razdel{background:url('/img/panel/razdel.gif');}
+
+.search_button{background:url('/img/schemes/1/search_button.gif');}
+
+.send_ok{background-color: #ffffff;border: solid #9AA4AB 1px;position: absolute;z-index: 60;text-align: center;}
+.send_ok span{display:block;font-size: 28px;font-weight:bold;color: #339900;line-height: 61px;width: 100%;border-bottom: 1px solid #9AA4AB;}
+.send_ok a {position:absolute;top: 7px;right :7px;}
+.send_ok iframe {margin:7px;}
+
+#search_button {background-image:url(/img/search_1.gif);}

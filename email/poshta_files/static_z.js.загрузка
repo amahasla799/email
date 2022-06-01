@@ -1,0 +1,31 @@
+
+var actSel=0;var active=Array();var ext_active;var URL=new Array();function $(el){return document.getElementById(el)}
+function setS(ID,val,r)
+{if(!r){r=''}$(ID).blur();if(val==''&&$('mainQ').value==""){document.location.href='http://meta.ua/';return false;}
+if(val=='dir'&&$('mainQ').value==""){document.location.href="http://meta.ua/reestr.asp";return false;}
+if($('mainQ').value!=""&&val!=""){document.location.href=URL[ID]+"?m="+val+"&q="+$('mainQ').value+r;return;}
+if(s_name=='search.asp'){document.location.href=URL[ID]+"?m="+val+"&q="+$('mainQ').value+r;return;}
+if(s_name=='adv_search.asp'){if(val!="dir"||$('mainQ').value!="")document.location.href=URL[ID]+"?m="+val+"&q="+$('mainQ').value+r;return;}
+if($('mainQ').value!=""){document.location.href=URL[ID]+"?m="+val+"&q="+$('mainQ').value+r;return;}
+document.location.href=String(URL[ID]).replace(/\/[^\/]*$/,"/");return;razdel=ID.replace(/-.*$/,"")
+if(ID!=ext_active)$('ext_dop').style.display="none";else $('ext_dop').style.display="block";$(ID).className='mC';$(active[razdel]).className='mCG';active[razdel]=ID;document.forms['sForm'].m.value=val;if(!textSB&&val!="")
+textSB=document.forms['sForm'].sb.value;try{check=$('rgnS').checked;}catch(e){check=false}
+if((val==""||val=="dir")&&check)
+{if(val=="")document.forms['sForm'].sb.value=textSB+" в Украине";if(val=="dir")document.forms['sForm'].sb.value=textSB+" в регионе";return}
+if(val!="")
+{text=String($("s-"+val).innerHTML);_match=text.match(/(.)$/);if(_match[1]!="")
+switch(_match[1])
+{case'р':text='в '+text+'е';break;default:break}
+if(lng!=1)text=text.toLowerCase();if(text=="польша"){text="";}
+document.forms['sForm'].sb.value=textSB+" "+text;$('rp').style.visibility="hidden";}
+else
+{document.forms['sForm'].sb.value=textSB+" в Украине";$('rp').style.visibility="visible";}
+if(s_name=='default.asp' && !nF) $("mainQ").focus();$("sForm").setAttribute("action",URL[ID]);if(!nF) $("mainQ").focus();return;}
+function inSite(reverse)
+{check=$('siteS').checked;if(reverse)check=!$('siteS').checked;cap="на сайте";if(check==true)
+{document.forms['sForm'].sb.value=textSB+" "+cap;}
+else
+document.forms['sForm'].sb.value=textSB+" в Украине";}
+function setSR(url)
+{try{_match=url.match(/.*rgn=(\d+)/);$('rgn_s').innerHTML="<input class=check id='rgnS' onchange='rgn_onload()' onmouseup='rgn_onload(true)' type=checkbox name='ctg"+reg2ctg[_match[1]]+"'>"+msg("Искать в регионе")+" <span id=rn></span>";}catch(e){$('rgn_s').innerHTML="";}
+rgn_onload();}

@@ -1,0 +1,57 @@
+#b3_c {padding-bottom:0px;}
+
+.bod .b_h {background-image:url(../img/panel/fon2.gif);background-repeat:repeat-x;padding-left:0px;padding-bottom:0px;}
+.bod .b_hc {height:28px;padding-left: 0px;}
+
+.left_panel, .bottom_panel {font-weight:normal;font-family:Tahoma,Geneva,sans-serif;font-size:11px;font-weight:bold;margin:0px;padding:0px;}
+
+.panel_element {float:left;padding-left:2px;padding-right:2px;height:28px;overflow:hidden;}
+.panel_element img {float: left;margin:0px;padding:0px;}
+
+.panel_element select {margin-top:5px;margin-left:5px;}
+.panel_element input {padding:0px;margin:0px;float:left;cursor:pointer;border:0px;background-color:transparent;color:#005A92;font-family:Tahoma,Geneva,sans-serif;font-size:11px;font-weight:bold;}
+.panel_element input.panel_submit {padding: 6px 3px 6px 3px; margin:0px;width: auto;//width:70px;}
+
+.bottom_panel .panel_element input.panel_submit {padding-bottom:6px;} 
+
+.bottom_panel .panel_element .panel_text {padding:8px 2px 0px 2px;margin:0px;color:#005A92}
+
+.panel_text {display:block;float:left;padding:0px;margin:0px;padding:0px 2px 0px 2px;font-family:Tahoma,Geneva,sans-serif;font-family:Tahoma,Geneva,sans-serif;font-size:11px;font-weight:bold;height:100%;}
+.bottom_panel .panel_text {height:21px;//height:28px;}
+
+.panel_element .panel_image, .panel_element img {width:28px;height:28px;}
+
+.panel_element_over {background-image:url(../img/panel/fon.gif);}
+
+.messlist th {border-right:none;}
+
+.left_panel .razdel {float:left;width:2px;height:27px;background-repeat:repeat-none;}
+
+.bottom_panel{margin:0; padding-right:9px; border-top:1px solid #909ba2; height: 28px;}
+
+.per_page_select {margin-top:5px;}
+
+.left_panel a:hover {text-decoration:none;}
+.bottom_panel a:hover {text-decoration:none;}
+
+.panel_element select {width:120px;float:left;}
+
+.left_panel a *,.bottom_panel a * {cursor:pointer;}
+
+.panel_element .btn1 {float:left;padding:0px;margin-top:5px;width: 40px;}
+
+.left_panel select, .bottom_panel select {font-size:100%;}
+
+.per_page_select {font-size:11px;}
+
+.panel_element .panel_image{//margin-right:-32px;}
+
+.panel_element{position:relative;}
+.panel_element .img_input{top:0px;left:0;width:29px;height:27px;position:absolute;z-index:100;font-size:18px;}
+.panel_element .panel_submit{height:28px;}
+
+.left_panel *,.bottom_panel * {}
+
+.panel_element .img_input,x:-moz-any-link{position:relative;margin-left:-28px;//margin-left:0;}
+
+.panel_element1 * {border:1px solid red;}

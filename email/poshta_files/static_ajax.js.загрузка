@@ -1,0 +1,40 @@
+var lang_str=[];
+lang_str["Выполнено"]=["Виконано","Сompleted"];var method;function showDATA(ID,text)
+{razdel=ID.replace(/_.*$/,"");i_razdel=razdel.replace(/W$/,"");text=window.frames["ISG_"+i_razdel].document.getElementById('SG').innerHTML;aj[razdel]--;respA=text.split("-###-");try{cache[oldID[razdel]]=$(razdel+"_cnt").innerHTML;}catch(e){}
+try{if(respA[1])window.document.getElementById(ID+"text").innerHTML=respA[1];}catch(e){};if(razdel=='mainW')
+window.document.getElementById(razdel+"_cnt").innerHTML=respA[0];else
+{try{window.document.getElementById(razdel+"_cnt").className="";window.document.getElementById(razdel+"_md").innerHTML="&nbsp;";}catch(e){};if(aj[razdel]==0)
+{window.document.getElementById(razdel+"_cnt").innerHTML=respA[0];oldID[razdel]=ID;init_refr(razdel);try{clearTimeout(timers[razdel]);}catch(e){};}
+else
+{cache[ID]=respA[0];}}
+try{eval(razdel+"_onload()");}catch(e){}
+if(aj[razdel]<0)aj[razdel]=0;try{$('IFD_'+i_razdel).style.height=$(i_razdel+'W_cnt').clientHeight+20+"px";}catch(e){}
+return false;}
+function getDATA(url,ID,str)
+{time=new Date();time=(time-(time%1000))/1000;razdel=ID.replace(/W_.*$/,"");if(razdel==ID)
+razdel=ID.replace(/_.*$/,"");if(url.search(/\?/i)!=-1)
+url+="&";else url+="?";url+="box="+razdel+"&time="+time;if(method=="IFRAME")
+{if(!$("DSG_"+razdel))
+{try{var newDIV=document.createElement("span");newDIV.id="DSG_"+razdel;newDIV.innerHTML="<iframe class=SG id='ISG_"+razdel+"' name='ISG_"+razdel+"' src='"+url+"&ID="+ID+"'></iframe>";obj=document.getElementsByTagName('body');obj[0].appendChild(newDIV);return false;}catch(e){XMLRequest(url,ID,str);}}
+else
+{try{url+="&ID="+ID;obj=$("ISG_"+razdel);obj.src=url;}catch(e){XMLRequest(url,ID,str);}
+return false;}}
+else
+{new XMLRequest(url,ID,str);}
+return false;}
+function XMLRequest(url,ID,str)
+{var xmlhttp;var xmlrs='';var err;var razdel;razdel=ID.replace(/_.*$/,"");if(window.XMLHttpRequest)
+{xmlhttp=new XMLHttpRequest();xmlhttp.open("GET",url,true);xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=windows-1251");xmlhttp.send(str);xmlhttp.onreadystatechange=state_Change;}
+else if(window.ActiveXObject)
+{xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");if(xmlhttp)
+{xmlhttp.open("GET",url,true);xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=windows-1251");xmlhttp.send(str);xmlhttp.onreadystatechange=state_Change;}}
+function state_Change()
+{if(xmlhttp.readyState==4)
+{if(xmlhttp.status==200)
+{if(ID!='')
+{respA=xmlhttp.responseText.split("-###-");cache[oldID[razdel]]=$(razdel+"_cnt").innerHTML;cache[ID]=window.document.getElementById(razdel+"_cnt").innerHTML=respA[0];try{if(respA[1])window.document.getElementById(ID+"text").innerHTML=respA[1];}catch(e){};try{window.document.getElementById(razdel+"_cnt").className="";aj[razdel]--;oldID[razdel]=ID;oldCnt[razdel]=respA[0];if(aj[razdel]<=0)
+{window.document.getElementById(razdel+"_md").innerHTML="";init_refr(razdel);try{clearTimeout(timers[razdel]);}catch(e){};}}catch(e){};try{eval(razdel+"_onload()");}catch(e){}}}
+else
+{try
+{window.document.getElementById(razdel+"_wait_mess").innerHTML="<b>ERROR: \""+xmlhttp.status+"\"</b><br>Problem retrieving XML data:"+xmlhttp.statusText;aj[razdel]--;timers[razdel]=setTimeout("res('"+razdel+"')",1500);}catch(e){}}}}}
+aj_loaded=1;

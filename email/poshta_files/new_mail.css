@@ -1,0 +1,82 @@
+body,table,td{font-weight:100%;}
+img{border:0;}
+.quota_fill,.quota_free{height:5px;margin:0;padding:0;}
+.quota_fill{background-color:#FF9900;}
+.quota_free{background-color:#2E8A8A;}
+.item_bul small{white-space:nowrap;}
+table.messlist{padding:0;margin:0px 0;_width:98%;}
+.messlist th{background-color:#D0D7DD;height:19px !important;padding:3px 5px;margin:0px;overflow:hidden;white-space:nowrap;}
+.messlist th.from{text-align:left;}
+.messlist th.subj{text-align:left;}
+.messlist th a{color:#003366 !important;}
+.messlist th.date{text-align:center;white-space:nowrap}
+#messlist input{background:transparent;}
+.messlist td{background-color:#EEF3F6;vertical-align:top;overflow:hidden;height:19px;padding:2px 5px;margin:0;border-bottom:1px solid #D0D7DD;}
+.highlighted td{background-color:#F4FBFE;}
+.cblue td a{color: #003366 !important;}
+#messlist td a{display:block;overflow:hidden;height:20px;line-height:20px; color:#000;}
+#messlist td,#messlist th,.messlist td,.messlist th{border-right:1px solid #E6E9EC;}
+#messlist td input,#messlist th input{background:transparent;}
+#messlist{border-left:1px solid #E6E9EC;}
+.messlist a:hover{text-decoration:none;}
+* html .messlist th input{background-color:#D0D7DD;margin:0px;padding:0px;}
+* html .messlist td input{background-color:#EEF3F6;margin:0px;padding:0px;}
+* html .highlighted td input{background-color:#F4FBFE;margin:0px;padding:0px;}
+.table-space{padding-right:9px;vertical-align:top;width:300px;}
+.bod{width:100%;float:right;padding-top:0;}
+
+:root *> input.inp_chk{background:#ffffff !important;}
+
+.btn_bold,.btn,.btn1,.btn2,.btn3, .btn_a_3, .btn_a_2 {float:none;border:0;height:18px;background-repeat:no-repeat;padding:0;margin-right:5px;font:11px/18px Tahoma;color:#535353;}
+.btn_bold,.btn,.btn1,.btn2,.btn3 {padding-bottom:2px;}
+.btn_bold,.btn {background:#F6F9FA url("../img/80.gif"); width:80px;}
+.btn1 {background:#F6F9FA url("../img/40.gif"); width:40px;}
+.btn_a_bold,.btn_a,.btn_a2, .btn_a_3, .btn_a_2 {display:block;background-image: url(../img/80.gif);width: 80px;border:0;height:18px;font-family:Tahoma;line-height:18px;font-size:11px;font-weight:normal;color:#535353;text-decoration:none;text-align:center;vertical-align:middle;float:left;margin-right:5px;}
+.btn_a_bold:hover, .btn_a:hover, .btn_a2:hover, .btn_a_2:hover, .btn_a_3:hover {color: #535353;text-decoration:none;}
+.btn_a2, .btn_a_3 {background:#F6F9FA url("../img/160.gif"); width:160px;}
+.btn2, .btn_a_2 {background:#F6F9FA url("../img/120.gif");width:120px;}
+.btn3, .btn_a_3 {background:#F6F9FA url("../img/160.gif"); width:160px;}
+
+.btn_a_2_button {border:0px;background:#F6F9FA url("../img/120.gif");width:120px;color:#535353;font-size:11px;height:18px;padding-top:0px;vertical-align:middle;line-height:17px;}
+a.btn_a_2_container {text-decoration:none;}
+
+.bold td{font-weight:bold;}
+
+.pagination { font-family: Tahoma;color: rgb(0, 90, 146); font-weight: bolder;}
+.pagination a, .pagination a:visited,.pagination b  {font-family: Arial;font-weight:normal; padding: 0px 5px 0px 5px;}
+.pagination b {border-bottom: 1px solid rgb(177, 191, 199);background-color: rgb(238, 243, 246);}
+
+.dline {padding:3px 0px;//padding-left:0px;}
+.dline select,.fold3 select,.dline TABLE, .dline TD {font-size:100%;}
+.dline b{width:85px;display:block;float:left;}
+.dline input.inp,.dline input.ainp,.dline textarea {border: 1px solid #B2C0C8;font-size:100%;}
+
+.fold3 {width:30%;padding:10px;float:left}
+.err_box{font-weight:bold;text-align:padding-left:40px;center;background : #ffffff url(../img/attention_y.gif) no-repeat scroll left;width:70%;}
+.zs{border-bottom:0 solid !important;}
+.kas{padding:10px;clear:both;text-align:right}
+.kas2{text-align:left;float:left}
+.kas2 A,.kas A {text-decoration:underline;}
+
+.btn_bold {font-weight:bold; margin-right:30px; background-image:url(/img/80_1_2.gif); color:#ffffff; width: 105px; text-align: left; padding-left: 9px;}
+.btn_a_bold {font-weight:bold; background-image:url(/img/80_1_3.gif); width: 115px;color:#ffffff;margin-right: 10px;}
+.btn_a_bold:hover {color:#ffffff;}
+
+.btn3 {font-weight: bold;}
+
+/*
+.adv {display:none;}
+.mainlogo {display:none}
+*/
+.mt_h {display:none;}
+.meta_tab {overflow:hidden;height:22px}
+
+#addresses td a {display: inline;}
+
+.nohover:hover {text-decoration: none;}
+
+.red,.red:hover {color: #cc0000;}
+
+.adress_table_top .btn_a { background-repeat:no-repeat; //padding-top:0px; }
+
+.buttonsend, .btn_a_bold, .btn_bold {background-color: #005c96;}

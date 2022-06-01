@@ -1,0 +1,55 @@
+(function(){
+newsSite="https://meta.ua/"
+newsFeedURL = "news/feed/"
+cnt = document.getElementById('news-feed');
+feed = getJSON(newsSite+(cnt.getAttribute("lang")=='ua'?"uk/":"")+newsFeedURL + cnt.getAttribute("feed") + "/?clientId=webmail.meta.ua");
+function createHTML(feed) {
+    css = new$("link", "", "");
+    css.setAttribute("href","/assets/news-feed/news-feed.css?v=0.1")/*+Math.random()*/
+    css.setAttribute("rel","stylesheet")
+    css.setAttribute("type","text/css")
+    document.body.appendChild(css)
+css.onload=function(){
+    newsblock = new$("div", "", "news-block");
+    for (i in feed) {
+
+        d = new$("div", "", "one-news");
+        a = new$("a", "", "");
+        b = new$("b", "", "");
+        c = new$("i", "", "");
+        //console.log(feed[i])
+        b.innerHTML = feed[i].title;
+        c.innerHTML = feed[i].category;
+
+        a.style.backgroundImage = "url(" + feed[i].image + ")"
+        a.href = feed[i].url
+        a.title = feed[i].category + ": " + feed[i].title
+        a.setAttribute("target", "_blank")
+        a.appendChild(b)
+        a.appendChild(c)
+        d.appendChild(a)
+        newsblock.appendChild(d)
+    }
+    cnt.appendChild(newsblock)
+  }
+
+}
+
+// *****************************************************************************
+function new$(type, id, cl) {
+    o = document.createElement(type);
+    if (id) o.id = id;
+    if (cl) o.className = cl;
+    return o
+}
+// *****************************************************************************
+function getJSON(url) {
+    fetch(url)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            createHTML(data);
+        });
+}
+})()

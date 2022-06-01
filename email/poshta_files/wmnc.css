@@ -1,0 +1,163 @@
+.mail_label_img {display:block;}
+.mail_label_text {display:block;margin-top:0px;color:#006699;font-family:Arial,sans-serif;font-size:14px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;line-height:1.6;}
+.menunew a {height:18px;vertical-align:top;margin-left:3px;}
+.menunew img {margin-left:5px;width:18px;height:18px;}
+
+.menunew a, .menunew img {height:18px;}
+
+div#top_panel{height:94px;}
+
+#z{height:94px;}
+
+#top_panel{margin:0px;padding:0px;}
+
+#z .mail_label_img, #z .mail_label_text {width:154px;}
+
+#z .mail_label_text:hover {text-decoration:none;}
+
+#z .left {float:left;text-align:center;width:153px;margin-top:21px;margin-left:63px;}
+
+.select_langs {float:right;}
+.menunew {position:absolute;right:0px;top:-22px;z-index:100;}
+.top_username{position:absolute;right:0px;top:2px;font-family:Tahoma,Geneva,sans-serif;font-weight:bolder;color:#000;font-size:13px;}
+
+.go_to_meta_href {display:block;float:left;}
+
+div.meta_tab {display:block;float:right;margin-top:-20px;border:0px;margin-right:-5px;//margin-right:-1px;}
+
+#t_menu a {margin:0px 4px 0px 7px;font-weight:bold;color:#003366;font-family:Tahoma;font-size:13px;}
+#projects_menu a {color:#555555;font-size:13px;font-family:Arial,sans-serif;margin:0px 3px 0px 3px;}
+
+* HTML .meta_tab{margin:0}
+div.topMN{padding:0px 2px 0px 2px;}
+div.topMN a{color:#003366;}
+div.topMN span{color:#000;}
+table.contt{width:100%;clear:both;margin:0;padding:0;border:0;border-spacing:0;}
+
+body * {}
+.mailbox_name {color: #003366 !important;}
+.imglogo {filter: progid:dximagetransform.microsoft.alphaimageloader(src='/img/i/logo_black.png', sizingmethod='crop');}
+#exitbtn_ru {position: ralative;float:right;width:55px;height:20px;}
+#exitbtn_ru a {display:block; height:20px;width:55px;text-decoration:none;background:url("/img/i/x_ru.png") 0px 0px;}
+#exitbtn_ru a:hover {background:url("/img/i/x_ru.png") 55px 0px !important;}
+#exitbtn_ua {position: ralative;float:right;width:55px; height:20px;}
+#exitbtn_ua a {display:block; height:20px;width:55px;text-decoration:none;background:url("/img/i/x_ua.png") 0px 0px;}
+#exitbtn_ua a:hover {background:url("/img/i/x_ua.png") 55px 0px !important;}
+.cntpage {color:#005A92;font-size:11px;font-family:Tahoma,Geneva,sans-serif;}
+.dcntpage {float: right;position:relative;margin-top: -7px;margin-right:14px;_margin-right:10px;_padding-right:4px;}
+#paghack {margin-right: 2px !important;_margin-right: 2px !important;}
+.adrbook .toolbar {}
+.adrbook .toolbar #lupa {position:absolute;margin-top:-5px;}
+.adrbook .toolbar .inp {border:1px solid #CCC;width:215px;margin-left:25px;}
+.adrb {clear:both;overflow:hidden;height:16px;_height:24px;margin-bottom:1px;padding:2px;}
+.adrb .checkboxinp {border 3px solid !important;}
+.adrb .listcheckbox {float:left;margin-top:2px;margin-left:3px;margin-right:3px;_margin:2px 4px 0px 3px;width:13px;height:13px;}
+.adrb label {}
+.adr_panel {background:#F7F7F7;border:1px solid #CCC;padding:2px;margin-right:3px;margin-bottom:5px;height:18px;_height:15px !important;_margin-right:3px !important;}
+.adr_panel b {display:block;margin-top:0px !important;white-space:nowrap;}
+.hr {clear:both; border-bottom:1px solid #909BA2;font-size:5px;margin-bottom:5px;}
+
+.a-d-r-b {height:16px;_height:24px;margin-bottom:1px;padding:2px;}
+.adrb .cnt {float:right; color:black;font-family:Tahoma,Helvetica,sans-serif;font-size:11px;padding:0px 5px 0px 0px;padding-top:2px;padding-left:5px;background-color:#FFF;z-index:999;}
+.adrb .span {color:#555555;}
+.adrb .list---old {float:left;font-family:Tahoma,Helvetica,sans-serif;padding:0px 5px 0px 2px;}
+.adrb .list {float:left;font-family:Tahoma,Helvetica,sans-serif;}
+#adrgrouplist .adrb .list {width:162px;overflow:hidden;}
+#adrinfo span {c-o-lor:#11406F;font-weight:bold;padding-right:10px;}
+.select {background:#4099D5;}
+.select .cnt {color:#FFF;background-color:#4099D5;}
+.adr_panel input {
+	_background-color:#F7F7F7;_color:#F7F7F7;
+	background-color:#F7F7F7;
+}
+.select input {
+	_background-color:#4099D5;_color:#4099D5;
+	_position: relative;
+	_margin-top: -2px;
+}
+.select a {color:#FFF;}
+#ultoolbar {margin:1px 0px 0px 0px; padding:0px;}
+#ultoolbar li {float: left;margin:0px; padding:0px;list-style-type:none;margin-right:10px;border-right:2px groove #C1D1D9;padding-right:10px;font-family:Tahoma,Helvetica,sans-serif;font-size:11px;}
+#u-l-t-o-o-l-b-ar l-i:h-o-v-e-r {background-color:#D0D7DD;background-position:0 -505px;}
+#ultoolbar li a div {width: 27px; height:25px;float:left;margin-top:3px;margin-right:5px;}
+#ultoolbar #addgroup {background:url("/img/i/bg_i.png") 480px -4px;}
+#ultoolbar #adduser {background:url("/img/i/bg_i.png") 480px -4px;}
+#ultoolbar #delgroup {background:url("/img/i/bg_i.png") 450px -4px;}
+#ultoolbar #editgroup {background:url("/img/i/bg_i.png") 510px -4px;}
+#ultoolbar .disabled {border-right: 1px solid #ABC;}
+#ultoolbar .disabled div {opacity:0.3;-moz-opacity:0.3;-webkit-opacity:0.3;filter:alpha(opacity=30);}
+#ultoolbar .disabled a {color:#ABC}
+#ultoolbar .disabled a:hover {background-position:0 -361px;}
+.qinp {
+	height:22px;
+	font-size:14px;
+	border: 1px solid #CCCCCC; 
+	width: 250px !important; 
+	margin-left:10px;
+	position: absolute;
+	top:1px;
+}
+
+
+
+.jqpopupmenu, .jqpopupmenu ul{ /*topmost and sub ULs, respectively*/
+font: normal 13px Verdana;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border: 1px solid black;
+visibility: hidden;
+display: none; /*collapse all sub menus to begin with*/
+box-shadow: 3px 3px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 3px 3px 8px #818181;
+-moz-box-shadow: 3px 3px 8px #818181;
+}
+
+
+.jqpopupmenu li{
+position: relative;
+}
+
+.jqpopupmenu li a{
+display: block;
+width: 220px; /*width of menu (not including side paddings)*/
+_width: 230px; /*width of menu (not including side paddings)*/
+font-size:13px;
+font-family:Arial,Helvetica,sans-serif;
+color: #003366;
+background: #F4FBFE; /*F5F5F5;*/
+text-decoration: none;
+padding: 4px 5px;
+}
+
+* html .jqpopupmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 220px; /*width of menu (include side paddings of LI A*/
+}
+
+.jqpopupmenu li a:hover, .jqpopupmenu li.selected>a{
+background: #FFFFEE; /*e0e0e0;*/
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.bpopmenu {font-size:13px;color:#939393;cursor:pointer;}
+.color1 {color:#003366 !important;cursor:pointer !important;text-decoration: underline !important;}
+#movetogroup {border:1px solid; width:200px; position:absolute;background:#F7F7F7;overflow:auto;overflow-x: hidden; overflow-y: auto; display:none;margin-left:60px;_margin-left:-20px;_margin-top:22px;}
+#movetogroup a {font-weight:normal; cursor: pointer;}
+#movetogroup div:hover {background: #FFFFEE !important;}
+#movetogroup a:hover {background: #FFFFEE !important;}
+.asubmenu {color:#939393 !important;font-weight:bold;_position:relative;_margin-bottom:-2px;padding-right:3px;}
+#rightBox .adr_panel {padding-left: 5px !important;}
